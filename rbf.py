@@ -1,5 +1,5 @@
 # Implementation of Radial Basis Function Network for Digit Classification
-# Team members: Ahmed Elshayeb, Anna-Kristina Zimmer, Jai Khanna
+# Jai Khanna
 
 
 import random as rnd
