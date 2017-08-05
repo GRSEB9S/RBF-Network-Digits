@@ -93,7 +93,7 @@ class Tools():
 		predictedLabels=np.zeros(nrows)
 		for i in range(nrows):
 			for j in range(len(centroidLabels)):
-				hyp[i][centroidLabels[j]]+=rbf_matrix[i][j]
+				hyp[i][int(centroidLabels[j])]+=rbf_matrix[i][j]
 			predictedLabels[i]=np.argmax(hyp[i])
 		return predictedLabels
 
